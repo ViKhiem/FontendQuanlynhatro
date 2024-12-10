@@ -1,0 +1,53 @@
+{
+  "users": {
+    "user_1": {
+      "name": "Nguyen Van A",
+      "email": "user@example.com",
+      "password": "hashed_password",
+      "role": "admin"
+    }
+  },
+  "rooms": {
+    "room_1": {
+      "roomName": "Phong_A101",
+      "status": "Dang_thue",
+      "price": 3000000,
+      "roomType": "Phong_don",
+      "image": "https://example.com/image-room1.jpg"
+    },
+    "room_2": {
+      "roomName": "Phong_A102",
+      "status": "Dang_thue",
+      "price": 6000000,
+      "roomType": "Phong_don",
+      "image": "https://example.com/image-room1.jpg"
+    }
+  },
+  "customers": {
+    "customer_1": {
+      "name": "Le Van B",
+      "gender": "Nam",
+      "phone": "0123456789",
+      "address": "Ha_Noi",
+      "birthDate": "1990-01-01",
+      "cccd": "012345678",
+      "issueDate": "2010-01-01",
+      "email": "customer@example.com",
+      "placeOfBirth": "Ha_Noi",
+      "rentalFee": 3000000,
+      "deposit": 1000000,
+      "note": "Dat_coc_truoc_1_thang",
+      "roomType": "Phong_don",
+      "startDate": "2024-12-01",
+      "userImage": "https://example.com/image-user1.jpg"
+    }
+  },
+  "services": {
+    "service_1": {
+      "roomId": "room_1",
+      "electricityIndex": 120,
+      "waterIndex": 15,
+      "total": 150000
+    }
+  }
+}
